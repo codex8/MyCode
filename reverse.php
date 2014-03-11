@@ -2,6 +2,8 @@
 //One
 $string = SAMEER;
 $i = 0;
+
+
 while(isset($string[$i])){
         $i++;
 }
@@ -22,5 +24,24 @@ for ($i;$i>-1;$i--)
 {
 echo $str_name[$i];
 }
+//*********u r jus echoing characters********'
+//********in reality u should reverse the string***********
+//**********by shabir...
 
+$str="Shabir";
+echo"<br>$str";
+$len=strlen($str);
+$temp="";
+$u=$len-1;
+$l=0;
+if($len!=0){
+	while($l<(int)($len/2)){
+		$temp=$str[$u];
+		$str[$u]=$str[$l];
+		$str[$l]=$temp;
+		$u--;
+		$l++;
+	}
+}
+echo"<br>$str";
 ?>
