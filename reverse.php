@@ -24,9 +24,7 @@ for ($i;$i>-1;$i--)
 {
 echo $str_name[$i];
 }
-//*********u r jus echoing characters********'
-//********in reality u should reverse the string***********
-//**********by shabir...
+
 
 $str="Shabir";
 echo"<br>$str";
