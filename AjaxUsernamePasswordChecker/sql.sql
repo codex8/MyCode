@@ -1,13 +1,9 @@
-
-
-CREATE DATABASE test IF NOT EXISTS
-use `test`
+CREATE DATABASE test IF NOT EXISTS;
+use `test`;
 --
 -- Database: `test`
 --
-
 -- --------------------------------------------------------
-
 --
 -- Table structure for table `users`
 --
